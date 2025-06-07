@@ -13,7 +13,7 @@ const computerchoice =() =>{
 const drawgame =() =>{
     console.log("game was draw.");
     msg.innerText="Game was Draw. Play again."
-    msg.style.backgroundColor="yellow";
+    msg.style.backgroundColor="blue";
 };
 const showwinner=(userwin,userchoice,compchoice) =>{
     if(userwin){
