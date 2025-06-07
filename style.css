@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+    box-sizing: border-box;
+}
+h1{
+    background-color: aquamarine;
+    color: blue;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choice{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+.choice:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: azure;
+    transition: all 0.3s ease;
+}
+
+img{
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.score-board{
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+#user-score, #computer-score{
+    font-size: 5rem;
+}
+.msg-container{
+    margin-top: 5rem;
+}
+#msg{
+    background-color: blueviolet;
+    color: bisque;
+    font-size: 3rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#reset-btn {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+#reset-btn:hover {
+    background-color: darkred;
+}
+.choice:focus, #reset-btn:focus {
+  outline: 3px solid #4a90e2;
+  outline-offset: 2px;
+}
